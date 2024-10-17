@@ -1,0 +1,106 @@
+<html>
+	<head>
+		<title>form<</title>
+		<style>
+		h4{background-color :yellow;color:red;width:fit-content }
+		table{background-color :rgb(212,209,209)}
+		.reset{color:white;background-color:red;height:2cm;width=5cm;}
+		</style>
+	</head>
+	<body>	
+		<header>
+			<marquee id="heading"
+			direction="left" behaviour="" scroleamound="5" onmouse="this.stop()" onmouseout="this.start()">
+			<b4><b>Welcome to freshers world!!!</b></h4>
+			</marquee>
+		</header>
+		<center>
+			<table border="1" cellpadding="10" cellspacing="0" width="75%" height="">	
+				<tr>
+				<th colspan="3"><b>REGISTERATION FORM</b></th>
+				</tr>
+				<tr>
+					<td>Name</td>
+					<td colspan="2"><input type="text" id="name" name="name"/></td>
+					</tr>
+					<tr>
+					<td>AGE</td>
+					<td colspan="2">
+					<select>
+					<option>SELECT</option>
+					<option></option>
+					</select>
+					</td>
+					</tr>
+					<tr>
+					<td>PASSWORD</td>
+					<td colspan="2"> <input type="password" id="pass" name="pass"/>
+				</td>
+				</tr>
+				<tr>
+				<td>RETYPE PASSWORD</td>
+				<td colspan="2"><input type="password" id="pass" name="pass"/></td>
+				</tr>
+				<tr>
+				<td rowspan="4">SELECT YOUR SECURITY QUESTION</td>
+				<td colspan="2"><input type="radio" id="ques" name="ques"/>What is your pet name?</td>
+				</tr>
+				<tr>
+				<td colspan="2"><input type="radio" id="ques" name="ques"/>Who is your best friend?</td>
+				</tr>
+				<tr>
+				<td colspan="2"><input type="radio" id="ques" name="ques"/>Which is your  favourate color?</td>
+				</tr>
+				<tr>
+				<td colspan="2"><input type="radio" id="ques" name="ques"/>Who is your favorate teacher?</td>
+				</tr>
+				<tr>
+				<td>Answers of security questions</td>
+				<td colspan="2"><input type="text" id="que" name="que"/></td>
+				
+
+				</tr>
+				
+				<tr>
+				<td>EMAIL ID</td>
+				<td colspan="2"><input type="email" id="email" name="email"/></td>
+				</tr>
+				
+				<tr>
+				<td>Languages known</td>
+				<td colspan="2"><input type="checkbox" id="lan" name="lan"/>MALAYALAM
+				<input type="checkbox" id="lan" name="lan"/>ENGLISH
+				<input type="checkbox" id="lan" name="lan"/>HINDI
+				</td>
+				</tr>
+				<tr>
+				<td rowspan="2">PHONE NUMBER</td>
+				<td>HOME</td>
+				<td>OFFICE</td>
+				<tr>
+				
+				<td><input type="tell" id="home" name="home"/></td>
+				<td><input type="tell" id="office" name="office/"></td>
+				</tr>
+				<tr>
+				<td rowspan="2">ADDRESS</td>
+				<td>permenent address</td>
+				<td>Residential Address</td>
+				<tr>
+				<td><textarea id="address" name="permenent address"></textarea></td>
+				
+				<td><textarea id="address" name="permenent address"></textarea><td>
+				</tr>
+				
+				<tr>
+					<td>UPLOAD CV</td>
+					<td colspan="2"><input type="file" id="cv" name="cv" value="No file choosen"/></td>
+					</tr>
+					<tr>
+					<td><center><input type="submit" id="reset" value="reset" class="reset"/></center></td>
+					<td><center><input type="submit" id="submit" value="submit" class="submit"/></center></td>
+					</tr>
+					</table>
+					</center>
+					</body>
+					</html>
